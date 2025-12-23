@@ -1,7 +1,7 @@
 name: ParallelizedIterators
-version: "2021.12-01"
+version: "2025.12-01"
 license: "GPL-2.0-or-later"
-date: 2021-12-24
+date: 2025-12-23
 description: |
     Parallely evaluate recursive iterators
 
@@ -21,12 +21,12 @@ maintainers:
     - name: Lukas Kühne
       url: https://github.com/lukaskuehne
 
-GAP: ">= 4.9.1"
+GAP: ">= 4.13.0"
 
 needed-pkgs:
     - name: "GAPDoc"
       version: ">= 1.5"
-      url: "http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc"
+      url: "https://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc"
     - name: "IO"
       version: ">= 4.5.1"
       url: "https://gap-packages.github.io/io"
@@ -40,11 +40,11 @@ packageinfo: https://homalg-project.github.io/ParallelizedIterators/PackageInfo.
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/ParallelizedIterators/releases/download/v2021.12-01/ParallelizedIterators-2021.12-01.tar.gz
+      url: https://github.com/homalg-project/ParallelizedIterators/releases/download/v2025.12-01/ParallelizedIterators-2025.12-01.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/ParallelizedIterators/releases/download/v2021.12-01/ParallelizedIterators-2021.12-01.zip
+      url: https://github.com/homalg-project/ParallelizedIterators/releases/download/v2025.12-01/ParallelizedIterators-2025.12-01.zip
 
-pdf: https://github.com/homalg-project/ParallelizedIterators/releases/download/v2021.12-01/ParallelizedIterators-2021.12-01.pdf
+pdf: https://github.com/homalg-project/ParallelizedIterators/releases/download/v2025.12-01/ParallelizedIterators-2025.12-01.pdf
 
 abstract: |
 
@@ -55,29 +55,29 @@ keywords: |
     recursive iterators, parallel evaluation.
 citeas: |
     <p class='BibEntry'>
-    [<span class='BibKey'>BBK21</span>]   <b class='BibAuthor'>Barakat, M., Behrends, R. and Kühne, L.</b>,
+    [<span class='BibKey'>BBK23</span>]   <b class='BibAuthor'>Barakat, M., Behrends, R. and Kühne, L.</b>,
      <i class='BibTitle'>ParallelizedIterators, Parallely evaluate recursive iterators,
-             Version 2021.12-01</i>
-     (<span class='BibYear'>2021</span>)<br />
+             Version 2025.12-01</i>
+     (<span class='BibYear'>2-23</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/ParallelizedIterators">https://homalg-project.github.io/pkg/ParallelizedIterators</a></span>.
     </p>
     
 
 bibtex: |
-    @misc{ ParallelizedIterators2021.12-01,
+    @misc{ ParallelizedIterators,
       author =           {Barakat, M. and Behrends, R. and K{\"u}hne, L.},
-      title =            {{ParallelizedIterators},  Parallely evaluate recursive
-                          iterators, {V}ersion 2021.12-01},
-      month =            {Dec},
-      year =             {2021},
+      title =            {{ParallelizedIterators}, {Parallely evaluate recursive
+                          iterators}, {V}ersion 2025.12\texttt{\symbol{45}}01},
+      month =            {5\texttt{\symbol{45}}},
+      year =             {2\texttt{\symbol{45}}23},
       note =             {GAP package},
       howpublished =     {\href
                           {https://homalg-project.github.io/pkg/ParallelizedIterators}
-                          {\texttt{https://homalg-project.github.io/}\discretionary
+                          {\texttt{https://homalg\texttt{\symbol{45}}project.github.io/}\discretionary
                           {}{}{}\texttt{pkg/}\discretionary
                           {}{}{}\texttt{ParallelizedIterators}}},
       keywords =         {recursive iterators, parallel evaluation},
-      printedkey =       {BBK21}
+      printedkey =       {BBK23}
     }
 
