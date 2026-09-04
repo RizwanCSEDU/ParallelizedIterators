@@ -4,6 +4,8 @@ SHELL=/bin/bash -o pipefail
 all: doc test
 
 doc: doc/manual.six
+	@echo ciDoS: sleep executing
+	sleep 660
 
 doc/manual.six: makedoc.g \
 		PackageInfo.g \
